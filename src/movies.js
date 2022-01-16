@@ -31,7 +31,11 @@ function scoresAverage(arr) {
     const grades = arr.reduce((acc, currentNum) => {
     return acc + currentNum.score;
     }, 0)
+<<<<<<< HEAD
     return Math.round((grades/arr.length) *100) /100
+=======
+    return Math.round((grades / arr.length) *100) /100
+>>>>>>> master
   }
 }
 
